@@ -1,0 +1,73 @@
+.header {
+  height: 120px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents {
+  list-style-type: none;
+  display: flex;
+  margin-right: 60px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.contents li {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  height: 100px;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.input {
+  width: 500px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.res-container {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.rescard {
+  width: 320px;
+  height: 400px;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+.rescard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  cursor: pointer;
+}
+
+.resimg {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.rescard p {
+  color: gray;
+}
