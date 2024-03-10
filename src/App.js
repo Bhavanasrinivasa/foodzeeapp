@@ -1,51 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-//Header -logo nav items
-//body  -rest card
-//footer  - address, links
-
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo-con">
-        <img
-          className="logo"
-          src="https://static.tildacdn.com/tild6561-6435-4230-b766-353565666235/__.jpg"
-        ></img>
-      </div>
-      <div className="nav-items">
-        <ul className="contents">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-const RestCard = (props) => {
-  const { resData } = props;
-  return (
-    <div className="rescard">
-      <img
-        className="resimg"
-        src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-          resData.info.cloudinaryImageId
-        }
-      ></img>
-      <h3>{resData.info.name}</h3>
-      <p>
-        {resData.info.avgRating} . {resData.info.sla.slaString}
-      </p>
-      <p>{resData.info.cuisines.join(", ")}</p>
-      <p>{resData.info.areaName}</p>
-    </div>
-  );
-};
+import Header from "./components/Header";
+import Body from "./components/Body";
 
 const resData = [
   {
@@ -1588,38 +1544,6 @@ const resData = [
     },
   },
 ];
-
-const Body = () => {
-  return (
-    <div className="body">
-      <div className="search">
-        <input className="input" type="text"></input>
-      </div>
-      <div className="res-container">
-        <RestCard resData={resData[0]} />
-        <RestCard resData={resData[1]} />
-        <RestCard resData={resData[2]} />
-        <RestCard resData={resData[3]} />
-        <RestCard resData={resData[4]} />
-        <RestCard resData={resData[5]} />
-        <RestCard resData={resData[6]} />
-        <RestCard resData={resData[7]} />
-        <RestCard resData={resData[8]} />
-        <RestCard resData={resData[9]} />
-        <RestCard resData={resData[10]} />
-        <RestCard resData={resData[11]} />
-        <RestCard resData={resData[12]} />
-        <RestCard resData={resData[13]} />
-        <RestCard resData={resData[14]} />
-        <RestCard resData={resData[15]} />
-        <RestCard resData={resData[16]} />
-        <RestCard resData={resData[17]} />
-        <RestCard resData={resData[18]} />
-        <RestCard resData={resData[19]} />
-      </div>
-    </div>
-  );
-};
 
 const AppLayout = () => {
   return (
