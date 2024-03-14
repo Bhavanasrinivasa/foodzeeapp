@@ -71,3 +71,15 @@
 .rescard p {
   color: gray;
 }
+
+.fil-btn {
+  margin-left: 70px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.fil-btn:hover {
+  cursor: pointer;
+}
