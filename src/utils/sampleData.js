@@ -1,274 +1,39 @@
 const resData = [
   {
     info: {
-      id: "31192",
-      name: "Sri Udupi Park - Opp Bescom",
-      cloudinaryImageId: "qhiy6coolxjequzdstn0",
-      locality: "Phoenix Marketcity Mall",
-      areaName: "Mahadevapura",
-      costForTwo: "₹200 for two",
-      cuisines: ["South Indian", "Jain", "Chinese", "Desserts"],
-      avgRating: 4.3,
-      veg: true,
-      parentId: "381856",
-      avgRatingString: "4.3",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 30,
-        lastMileTravel: 4.6,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "4.6 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 23:30:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-      },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/sri-udupi-park-opp-bescom-phoenix-marketcity-mall-mahadevapura-bangalore-31192",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "156663",
-      name: "Sri Lakshmi Vaibhava",
-      cloudinaryImageId: "hxdoygnqwwi6i6fenhjo",
-      locality: "Marathahalli",
-      areaName: "Marathahalli",
-      costForTwo: "₹200 for two",
-      cuisines: ["South Indian", "North Indian"],
-      avgRating: 4.4,
-      parentId: "14682",
-      avgRatingString: "4.4",
-      totalRatingsString: "5K+",
-      sla: {
-        deliveryTime: 28,
-        lastMileTravel: 1.4,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "1.4 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 22:01:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-      },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/sri-lakshmi-vaibhava-marathahalli-bangalore-156663",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "235721",
-      name: "Chaayos Chai+Snacks=Relax",
-      cloudinaryImageId: "cace805a6ba74137571d0f7ac92302b1",
-      locality: "Kundalahalli",
-      areaName: "Marathahalli",
-      costForTwo: "₹250 for two",
-      cuisines: [
-        "Bakery",
-        "Beverages",
-        "Chaat",
-        "Desserts",
-        "Home Food",
-        "Italian",
-        "Maharashtrian",
-        "Snacks",
-        "Street Food",
-        "Sweets",
-      ],
-      avgRating: 4.5,
-      parentId: "281782",
-      avgRatingString: "4.5",
-      totalRatingsString: "5K+",
-      sla: {
-        deliveryTime: 31,
-        lastMileTravel: 3.7,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "3.7 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-10 02:00:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "60% OFF",
-        subHeader: "UPTO ₹120",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/chaayos-chai-snacks-relax-kundalahalli-marathahalli-bangalore-235721",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "130342",
-      name: "Sri Udupi Park",
-      cloudinaryImageId: "g7i1q1tqfsmmsb0dhbyy",
+      id: "657421",
+      name: "McDonald's",
+      cloudinaryImageId: "f62564e14944753903849c4ef673af4d",
       locality: "Doddanekundi",
       areaName: "Marathahalli",
-      costForTwo: "₹100 for two",
-      cuisines: ["Indian"],
-      avgRating: 4.3,
-      veg: true,
-      parentId: "4284",
-      avgRatingString: "4.3",
-      totalRatingsString: "5K+",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+      avgRating: 4.4,
+      parentId: "630",
+      avgRatingString: "4.4",
+      totalRatingsString: "1K+",
       sla: {
-        deliveryTime: 27,
-        lastMileTravel: 2.1,
+        deliveryTime: 30,
+        lastMileTravel: 2,
         serviceability: "SERVICEABLE",
         slaString: "25-30 mins",
-        lastMileTravelString: "2.1 km",
+        lastMileTravelString: "2.0 km",
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2024-03-09 22:30:00",
+        nextCloseTime: "2024-03-23 04:00:00",
         opened: true,
       },
       badges: {
         imageBadges: [
           {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
+            imageId: "Rxawards/_CATEGORY-Burger.png",
+            description: "Delivery!",
           },
         ],
       },
       isOpen: true,
+      aggregatedDiscountInfoV2: {},
       type: "F",
       badgesV2: {
         entityBadges: {
@@ -276,30 +41,21 @@ const resData = [
             badgeObject: [
               {
                 attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Burger.png",
                 },
               },
             ],
           },
           textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
+          textExtendedBadges: {},
         },
       },
-      aggregatedDiscountInfoV3: {
-        header: "10% OFF",
-        subHeader: "UPTO ₹40",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
       },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -313,71 +69,69 @@ const resData = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {},
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
     cta: {
-      link: "https://www.swiggy.com/restaurants/sri-udupi-park-doddanekundi-marathahalli-bangalore-130342",
+      link: "https://www.swiggy.com/restaurants/mcdonalds-doddanekundi-marathahalli-bangalore-657421",
+      text: "RESTAURANT_MENU",
       type: "WEBLINK",
     },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
-      id: "621939",
-      name: "The Brooklyn Creamery - Healthy Ice Cream",
-      cloudinaryImageId: "b1b35780a9b1dfeb26d680506d494eaa",
-      locality: "Opp to Vagdevi vilas school",
-      areaName: "Marathalli",
-      costForTwo: "₹200 for two",
-      cuisines: ["Desserts", "Ice Cream", "Healthy Food"],
-      avgRating: 4.3,
-      veg: true,
-      parentId: "236673",
-      avgRatingString: "4.3",
-      totalRatingsString: "50+",
+      id: "716564",
+      name: "UBQ by Barbeque Nation",
+      cloudinaryImageId: "8155f8a7c5352697bf298810d7ba00ae",
+      locality: "VARTHUR",
+      areaName: "MARATHALLI",
+      costForTwo: "₹300 for two",
+      cuisines: [
+        "North Indian",
+        "Barbecue",
+        "Biryani",
+        "Kebabs",
+        "Mughlai",
+        "Desserts",
+        "Snacks",
+      ],
+      avgRating: 4,
+      parentId: "10804",
+      avgRatingString: "4.0",
+      totalRatingsString: "100+",
       sla: {
-        deliveryTime: 31,
-        lastMileTravel: 3.5,
+        deliveryTime: 45,
+        lastMileTravel: 4.4,
         serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "3.5 km",
+        slaString: "45-50 mins",
+        lastMileTravelString: "4.4 km",
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2024-03-10 01:00:00",
+        nextCloseTime: "2024-03-22 23:30:00",
         opened: true,
       },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "brand",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
+      badges: {},
       isOpen: true,
       type: "F",
       badgesV2: {
         entityBadges: {
           imageBased: {},
           textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "brand",
-                },
-              },
-            ],
-          },
+          textExtendedBadges: {},
         },
       },
       aggregatedDiscountInfoV3: {
         header: "50% OFF",
         subHeader: "UPTO ₹100",
       },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
         differentiatedUiMediaDetails: {
@@ -390,38 +144,169 @@ const resData = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {},
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
     cta: {
-      link: "https://www.swiggy.com/restaurants/the-brooklyn-creamery-healthy-ice-cream-opp-to-vagdevi-vilas-school-marathalli-bangalore-621939",
+      link: "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-varthur-marathalli-bangalore-716564",
+      text: "RESTAURANT_MENU",
       type: "WEBLINK",
     },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
-      id: "149682",
-      name: "Samosa Party",
-      cloudinaryImageId: "thzhbierhb2qxhqsl0bo",
-      locality: "Munnekollal",
+      id: "17303",
+      name: "KFC",
+      cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+      locality: "Thubarahalli",
       areaName: "Marathahalli",
-      costForTwo: "₹100 for two",
-      cuisines: [
-        "Fast Food",
-        "Snacks",
-        "Beverages",
-        "Chaat",
-        "North Indian",
-        "Street Food",
-        "Sweets",
-        "Desserts",
-        "Punjabi",
-        "Bakery",
-      ],
-      avgRating: 4.2,
-      parentId: "6364",
-      avgRatingString: "4.2",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      avgRating: 4,
+      parentId: "547",
+      avgRatingString: "4.0",
       totalRatingsString: "10K+",
       sla: {
-        deliveryTime: 30,
+        deliveryTime: 26,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-03-22 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/kfc-thubarahalli-marathahalli-bangalore-17303",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "57583",
+      name: "Pista House Haleem",
+      cloudinaryImageId: "vcakttqhwi2afmozjczz",
+      locality: "Marathahalli Ring Road",
+      areaName: "Kadubeesanahalli",
+      costForTwo: "₹400 for two",
+      cuisines: ["Andhra"],
+      avgRating: 3.7,
+      parentId: "21968",
+      avgRatingString: "3.7",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 26,
+        lastMileTravel: 2,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "2.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-03-22 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/pista-house-haleem-marathahalli-ring-road-kadubeesanahalli-bangalore-57583",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "135388",
+      name: "Puchkas Your Own Chaat House",
+      cloudinaryImageId: "p9b6me3vhnrf8pn6q8yz",
+      locality: "Munekollal",
+      areaName: "Marathahalli",
+      costForTwo: "₹250 for two",
+      cuisines: [
+        "Street Food",
+        "Chaat",
+        "Chinese",
+        "North Indian",
+        "South Indian",
+      ],
+      avgRating: 4.4,
+      veg: true,
+      parentId: "472645",
+      avgRatingString: "4.4",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 29,
         lastMileTravel: 2.3,
         serviceability: "SERVICEABLE",
         slaString: "25-30 mins",
@@ -429,42 +314,43 @@ const resData = [
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2024-03-16 00:00:00",
+        nextCloseTime: "2024-03-22 22:00:00",
         opened: true,
       },
       badges: {
-        textExtendedBadges: [
+        imageBadges: [
           {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
           },
         ],
       },
-      select: true,
       isOpen: true,
       type: "F",
       badgesV2: {
         entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
+          imageBased: {
             badgeObject: [
               {
                 attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
                 },
               },
             ],
           },
+          textBased: {},
+          textExtendedBadges: {},
         },
       },
       aggregatedDiscountInfoV3: {
-        header: "60% OFF",
-        subHeader: "UPTO ₹120",
+        header: "FREE ITEM",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
       },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -478,70 +364,58 @@ const resData = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {},
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
     cta: {
-      link: "https://www.swiggy.com/restaurants/samosa-party-munnekollal-marathahalli-bangalore-149682",
+      link: "https://www.swiggy.com/restaurants/puchkas-your-own-chaat-house-munekollal-marathahalli-bangalore-135388",
+      text: "RESTAURANT_MENU",
       type: "WEBLINK",
     },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
-      id: "490585",
-      name: "NOTO - Ice Creams & Desserts",
-      cloudinaryImageId: "81ac87e5c89c16adc867be38ce5a1ba3",
-      locality: "Munnekolala",
-      areaName: "Marathalli",
-      costForTwo: "₹250 for two",
-      cuisines: ["Ice Cream"],
-      avgRating: 4.3,
+      id: "368348",
+      name: "Ledikeni sweets and Savouries",
+      cloudinaryImageId: "zazxpolqt9o0tmob6hko",
+      locality: "kundalahalli",
+      areaName: "Marathahalli",
+      costForTwo: "₹200 for two",
+      cuisines: ["Sweets", "Snacks", "Desserts", "Chaat", "Bengali"],
+      avgRating: 4.5,
       veg: true,
-      parentId: "468478",
-      avgRatingString: "4.3",
-      totalRatingsString: "500+",
+      parentId: "124650",
+      avgRatingString: "4.5",
+      totalRatingsString: "1K+",
       sla: {
-        deliveryTime: 23,
-        lastMileTravel: 2,
+        deliveryTime: 22,
+        lastMileTravel: 2.3,
         serviceability: "SERVICEABLE",
         slaString: "20-25 mins",
-        lastMileTravelString: "2.0 km",
+        lastMileTravelString: "2.3 km",
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2024-03-10 02:00:00",
+        nextCloseTime: "2024-03-22 22:00:00",
         opened: true,
       },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "brand",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
+      badges: {},
       isOpen: true,
+      aggregatedDiscountInfoV2: {},
       type: "F",
       badgesV2: {
         entityBadges: {
           imageBased: {},
           textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "brand",
-                },
-              },
-            ],
-          },
+          textExtendedBadges: {},
         },
       },
-      aggregatedDiscountInfoV3: {
-        header: "60% OFF",
-        subHeader: "UPTO ₹120",
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
       },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -555,52 +429,46 @@ const resData = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {},
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
     cta: {
-      link: "https://www.swiggy.com/restaurants/noto-ice-creams-and-desserts-munnekolala-marathalli-bangalore-490585",
+      link: "https://www.swiggy.com/restaurants/ledikeni-sweets-and-savouries-kundalahalli-marathahalli-bangalore-368348",
+      text: "RESTAURANT_MENU",
       type: "WEBLINK",
     },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
-      id: "6911",
-      name: "FreshMenu",
-      cloudinaryImageId: "6c4de7b481d3614370e5062b2f33e7d6",
-      locality: "Gulmohar road",
+      id: "29972",
+      name: "Domino's Pizza",
+      cloudinaryImageId: "d0450ce1a6ba19ea60cd724471ed54a8",
+      locality: "Outer Ring Road",
       areaName: "Marathahalli",
-      costForTwo: "₹250 for two",
-      cuisines: [
-        "Continental",
-        "Chinese",
-        "Oriental",
-        "Asian",
-        "Healthy Food",
-        "Fast Food",
-        "Indian",
-        "Desserts",
-      ],
-      avgRating: 4.1,
-      parentId: "398",
-      avgRatingString: "4.1",
+      costForTwo: "₹400 for two",
+      cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
+      avgRating: 4.4,
+      parentId: "2456",
+      avgRatingString: "4.4",
       totalRatingsString: "10K+",
       sla: {
-        deliveryTime: 42,
-        lastMileTravel: 2.9,
+        deliveryTime: 25,
+        lastMileTravel: 1.5,
         serviceability: "SERVICEABLE",
-        slaString: "40-45 mins",
-        lastMileTravelString: "2.9 km",
+        slaString: "25 mins",
+        lastMileTravelString: "1.5 km",
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2024-03-10 01:00:00",
+        nextCloseTime: "2024-03-22 23:59:00",
         opened: true,
       },
       badges: {
-        textExtendedBadges: [
+        imageBadges: [
           {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
+            imageId: "Rxawards/_CATEGORY-Pizza.png",
+            description: "Delivery!",
           },
         ],
       },
@@ -608,25 +476,29 @@ const resData = [
       type: "F",
       badgesV2: {
         entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
+          imageBased: {
             badgeObject: [
               {
                 attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Pizza.png",
                 },
               },
             ],
           },
+          textBased: {},
+          textExtendedBadges: {},
         },
       },
       aggregatedDiscountInfoV3: {
-        header: "EVERY ITEM",
-        subHeader: "@ ₹100",
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
       },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -640,19 +512,90 @@ const resData = [
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {},
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
     cta: {
-      link: "https://www.swiggy.com/restaurants/freshmenu-gulmohar-road-marathahalli-bangalore-6911",
+      link: "https://www.swiggy.com/restaurants/dominos-pizza-outer-ring-road-marathahalli-bangalore-29972",
+      text: "RESTAURANT_MENU",
       type: "WEBLINK",
     },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
     info: {
-      id: "103789",
+      id: "113861",
+      name: "HOMMS",
+      cloudinaryImageId: "vimuysflcfsaho5ip6ow",
+      locality: "Vyjayanthi Mala complex",
+      areaName: "Mahadevpura",
+      costForTwo: "₹300 for two",
+      cuisines: ["Chinese", "Asian"],
+      avgRating: 4.2,
+      parentId: "14566",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 2.4,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "2.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-03-23 02:45:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/homms-vyjayanthi-mala-complex-mahadevpura-bangalore-113861",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "810721",
       name: "Starbucks Coffee",
       cloudinaryImageId: "2418209798927d733a50f5d2ebcc2aee",
-      locality: "Ramagondanahalli",
-      areaName: "Whitefield",
+      locality: "Brookefield main road",
+      areaName: "Kundalahalli",
       costForTwo: "₹400 for two",
       cuisines: [
         "Beverages",
@@ -662,764 +605,12 @@ const resData = [
         "Bakery",
         "Ice Cream",
       ],
-      avgRating: 4.4,
+      avgRating: 4.3,
       parentId: "195515",
-      avgRatingString: "4.4",
-      totalRatingsString: "1K+",
-      sla: {
-        deliveryTime: 37,
-        lastMileTravel: 5.8,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "5.8 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 23:59:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "30% OFF",
-        subHeader: "UPTO ₹75",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/starbucks-coffee-ramagondanahalli-whitefield-bangalore-103789",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "997",
-      name: "A2B - Adyar Ananda Bhavan",
-      cloudinaryImageId: "wcqvllaujsmtz1ji2vlp",
-      locality: "Munekolala",
-      areaName: "Marathahalli",
-      costForTwo: "₹300 for two",
-      cuisines: ["South Indian", "North Indian", "Sweets", "Chinese"],
-      avgRating: 4.4,
-      veg: true,
-      parentId: "22",
-      avgRatingString: "4.4",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 29,
-        lastMileTravel: 1.7,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "1.7 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 22:30:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "20% OFF",
-        subHeader: "UPTO ₹50",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/a2b-adyar-ananda-bhavan-munekolala-marathahalli-bangalore-997",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "43850",
-      name: "The Nosh House",
-      cloudinaryImageId: "t6c2esjgibs3nluwubvk",
-      locality: "Kasavanahalli",
-      areaName: "Sarjapur Road",
-      costForTwo: "₹600 for two",
-      cuisines: [
-        "Desserts",
-        "Bakery",
-        "Continental",
-        "Italian",
-        "American",
-        "Mediterranean",
-        "Mexican",
-        "Thai",
-        "Asian",
-        "Pan-Asian",
-        "Home Food",
-        "Healthy Food",
-        "Snacks",
-        "Pizzas",
-        "Pastas",
-        "Salads",
-        "Beverages",
-      ],
-      avgRating: 4.5,
-      parentId: "21005",
-      avgRatingString: "4.5",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 47,
-        lastMileTravel: 9.7,
-        serviceability: "SERVICEABLE",
-        slaString: "45-50 mins",
-        lastMileTravelString: "9.7 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 22:30:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "C",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/the-nosh-house-kasavanahalli-sarjapur-road-bangalore-43850",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "272242",
-      name: "EatFit",
-      cloudinaryImageId: "a564ace38895abd960157ac2a76aaf2a",
-      locality: "Hoodi",
-      areaName: "Whitefield",
-      costForTwo: "₹270 for two",
-      cuisines: [
-        "Chinese",
-        "Healthy Food",
-        "Tandoor",
-        "Pizzas",
-        "North Indian",
-        "Thalis",
-        "Biryani",
-      ],
-      avgRating: 4.3,
-      parentId: "76139",
       avgRatingString: "4.3",
-      totalRatingsString: "10K+",
+      totalRatingsString: "20+",
       sla: {
-        deliveryTime: 34,
-        lastMileTravel: 4.4,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "4.4 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 23:59:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "brand",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "brand",
-                },
-              },
-            ],
-          },
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "50% OFF",
-        subHeader: "UPTO ₹100",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/eatfit-hoodi-whitefield-bangalore-272242",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "134975",
-      name: "The Hole in the Wall Cafe",
-      cloudinaryImageId: "mhp65ua4npzc54q3yqkx",
-      locality: "2nd stage",
-      areaName: "Indiranagar",
-      costForTwo: "₹300 for two",
-      cuisines: ["American"],
-      avgRating: 4.4,
-      parentId: "11538",
-      avgRatingString: "4.4",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 43,
-        lastMileTravel: 6.9,
-        serviceability: "SERVICEABLE",
-        slaString: "40-45 mins",
-        lastMileTravelString: "6.9 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 20:45:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/the-hole-in-the-wall-cafe-2nd-stage-indiranagar-bangalore-134975",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "234631",
-      name: "Truffles",
-      cloudinaryImageId: "cd832b6167eb9f88aeb1ccdebf38d942",
-      locality: "Kaveri Nagar",
-      areaName: "Garudacharpalya",
-      costForTwo: "₹350 for two",
-      cuisines: [
-        "American",
-        "Continental",
-        "Desserts",
-        "Bakery",
-        "Beverages",
-        "Pastas",
-        "Italian",
-      ],
-      avgRating: 4.4,
-      parentId: "218065",
-      avgRatingString: "4.4",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 36,
-        lastMileTravel: 4.5,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "4.5 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-10 00:00:00",
-        opened: true,
-      },
-      badges: {},
-      select: true,
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "30% OFF",
-        subHeader: "UPTO ₹75",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/truffles-kaveri-nagar-garudacharpalya-bangalore-234631",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "129157",
-      name: "Sri Alok Park",
-      cloudinaryImageId: "d1qegfnppziz8rurhthx",
-      locality: "ITPL Main Road",
-      areaName: "Whitefield",
-      costForTwo: "₹200 for two",
-      cuisines: [
-        "South Indian",
-        "North Indian",
-        "Snacks",
-        "Desserts",
-        "Juices",
-      ],
-      avgRating: 4.3,
-      veg: true,
-      parentId: "373323",
-      avgRatingString: "4.3",
-      totalRatingsString: "5K+",
-      sla: {
-        deliveryTime: 38,
-        lastMileTravel: 7.3,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "7.3 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 23:00:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "20% OFF",
-        subHeader: "UPTO ₹50",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/sri-alok-park-itpl-main-road-whitefield-bangalore-129157",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "32474",
-      name: "Thalassery Restaurant",
-      cloudinaryImageId: "qdvgwbz1b1pcttf1tifj",
-      locality: "M S Reddy Layout",
-      areaName: "Marathahalli",
-      costForTwo: "₹300 for two",
-      cuisines: [
-        "South Indian",
-        "Biryani",
-        "Kerala",
-        "North Indian",
-        "Chinese",
-      ],
-      avgRating: 4,
-      parentId: "14391",
-      avgRatingString: "4.0",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 30,
-        lastMileTravel: 1.7,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "1.7 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 23:25:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "20% OFF",
-        subHeader: "UPTO ₹45",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/thalassery-restaurant-m-s-reddy-layout-marathahalli-bangalore-32474",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "69892",
-      name: "Kanti Sweets",
-      cloudinaryImageId: "fx2d4ygwtgspqsji7gfo",
-      locality: "Garudacharpalya",
-      areaName: "Mahadevpura",
-      costForTwo: "₹100 for two",
-      cuisines: ["Desserts"],
-      avgRating: 4.5,
-      veg: true,
-      parentId: "4700",
-      avgRatingString: "4.5",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 28,
-        lastMileTravel: 4.8,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "4.8 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 22:30:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-      },
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/kanti-sweets-garudacharpalya-mahadevpura-bangalore-69892",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "9420",
-      name: "Madurai Idly Shop",
-      cloudinaryImageId: "d0caf075899a1a86a2f4d96ea8dbb668",
-      locality: "Munekollal",
-      areaName: "Marathahalli",
-      costForTwo: "₹150 for two",
-      cuisines: ["South Indian"],
-      avgRating: 4,
-      veg: true,
-      parentId: "613",
-      avgRatingString: "4.0",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 23,
-        lastMileTravel: 0.8,
-        serviceability: "SERVICEABLE",
-        slaString: "20-25 mins",
-        lastMileTravelString: "0.8 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-09 22:45:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "20% OFF",
-        subHeader: "UPTO ₹50",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/madurai-idly-shop-munekollal-marathahalli-bangalore-9420",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "21421",
-      name: "Dunkin' - Donuts & Coffee",
-      cloudinaryImageId: "bdc68784a5c92e2396ebcac46b362328",
-      locality: "Brookefield Mall",
-      areaName: "Marathahalli",
-      costForTwo: "₹250 for two",
-      cuisines: ["Desserts", "Cafe", "Bakery", "Beverages", "Fast Food"],
-      avgRating: 4.3,
-      parentId: "2276",
-      avgRatingString: "4.3",
-      totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 27,
+        deliveryTime: 26,
         lastMileTravel: 3,
         serviceability: "SERVICEABLE",
         slaString: "25-30 mins",
@@ -1427,7 +618,7 @@ const resData = [
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2024-03-09 23:00:00",
+        nextCloseTime: "2024-03-22 23:59:00",
         opened: true,
       },
       badges: {},
@@ -1441,85 +632,15 @@ const resData = [
         },
       },
       aggregatedDiscountInfoV3: {
-        header: "50% OFF",
-        subHeader: "UPTO ₹100",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/dunkin-donuts-and-coffee-brookefield-mall-marathahalli-bangalore-21421",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "209764",
-      name: "Third Wave Coffee",
-      cloudinaryImageId: "d96267738c19ec62acb5390e52faba41",
-      locality: "Ambalipura",
-      areaName: "Haralur",
-      costForTwo: "₹400 for two",
-      cuisines: ["Beverages", "Bakery", "Continental"],
-      avgRating: 4.3,
-      parentId: "274773",
-      avgRatingString: "4.3",
-      totalRatingsString: "1K+",
-      sla: {
-        deliveryTime: 41,
-        lastMileTravel: 7.5,
-        serviceability: "SERVICEABLE",
-        slaString: "40-45 mins",
-        lastMileTravelString: "7.5 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-03-10 03:00:00",
-        opened: true,
-      },
-      badges: {
-        textExtendedBadges: [
-          {
-            iconId: "guiltfree/GF_Logo_android_3x",
-            shortDescription: "options available",
-            fontColor: "#7E808C",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
-      aggregatedDiscountInfoV3: {
         header: "20% OFF",
         subHeader: "UPTO ₹50",
       },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
         differentiatedUiMediaDetails: {
@@ -1530,13 +651,18 @@ const resData = [
       },
       reviewsSummary: {},
       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
       restaurantOfferPresentationInfo: {},
     },
-    analytics: {},
+    analytics: {
+      context: "seo-data-9fe83f4e-6960-4d38-b932-8cd6cdfb5e6b",
+    },
     cta: {
-      link: "https://www.swiggy.com/restaurants/third-wave-coffee-ambalipura-haralur-bangalore-209764",
+      link: "https://www.swiggy.com/restaurants/starbucks-coffee-brookefield-main-road-kundalahalli-bangalore-810721",
+      text: "RESTAURANT_MENU",
       type: "WEBLINK",
     },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
 ];
 
